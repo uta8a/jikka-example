@@ -5,6 +5,10 @@
 
 ```
 
+とりあえずABC150まで調べよう。
+あと現在最新headで壊れてないか調べたい(後で)
+
+
 # mainの後ろのnewlineがないときとあるときでエラーが違う
 ```shell
 $ ../../../jikka-v5.1.0.0-Linux convert main.py 
@@ -12,7 +16,7 @@ Syntax Error (line 0 column 1) (user's mistake?): Jikka.Python.Parse.Happy.run f
 <invalid loc>
 ```
 これ、
-```
+```py
 # ....
 if __name__ == '__main__':
     main() # <- newlineなし
