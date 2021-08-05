@@ -36,3 +36,14 @@ line 0と言われて一番上を見たが何もおかしくないので少し�
 
 これ利用不可能な例に書いてあった
 
+# for文2つのlist内包表記はできない
+```shell
+$ ../../../jikka-v5.1.0.0-Linux convert main.py
+Syntax Error (line 6 column 42) (user's mistake?): Jikka.Python.Parse.Happy.run failed: `For' is got, but `"]"' is expected
+5 |def solve(n: int, k: int) -> int:
+6 |    a = [100*i + j for i in range(1,n+1) for j in range(1,k+1)]
+                                            ^^^
+7 |    ans = sum(a)
+```
+
+これpython本家でできることが驚きだけど...

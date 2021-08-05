@@ -44,4 +44,9 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - 生成されたC++はサンプルが合う [ローカルでの `oj t -N` の結果](atcoder/abc204/b/result_as_generated_cpp)
   - 生成されたC++はAC https://atcoder.jp/contests/abc204/submissions/24788117
-- 
+- :sob: [`atcoder/abc203/b/main.py`](atcoder/abc203/b/main.py)
+  - 出力形式が数値
+  - PythonコードはAC https://atcoder.jp/contests/abc203/submissions/24788520
+  - 生成されたC++はコンパイルが通る
+  - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc203/b/result_as_generated_cpp)
+  - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc203/submissions/24788528

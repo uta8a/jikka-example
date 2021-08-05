@@ -1,0 +1,32 @@
+[INFO] online-judge-tools 11.4.0 (+ online-judge-api-client 10.9.0)
+[INFO] 2 cases found
+
+[INFO] sample-1
+[INFO] time: 0.006755 sec
+[FAILURE] WA
+input:
+1 2
+
+output:
+403_(trailing whitespace)
+_(trailing whitespace)
+expected:
+203
+
+
+[INFO] sample-2
+[INFO] time: 0.004398 sec
+[FAILURE] WA
+input:
+3 3
+
+output:
+2718_(trailing whitespace)
+_(trailing whitespace)
+expected:
+1818
+
+
+[INFO] slowest: 0.006755 sec  (for sample-1)
+[INFO] max memory: 3.444000 MB  (for sample-1)
+[FAILURE] test failed: 0 AC / 2 cases
