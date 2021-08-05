@@ -1,3 +1,10 @@
+# note
+```shell
+# command
+../../../jikka-v5.1.0.0-Linux convert main.py
+
+```
+
 # mainの後ろのnewlineがないときとあるときでエラーが違う
 ```shell
 $ ../../../jikka-v5.1.0.0-Linux convert main.py 
