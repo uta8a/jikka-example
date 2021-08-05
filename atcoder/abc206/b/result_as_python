@@ -1,0 +1,14 @@
+[INFO] online-judge-tools 11.4.0 (+ online-judge-api-client 10.9.0)
+[INFO] 2 cases found
+
+[INFO] sample-1
+[INFO] time: 0.024682 sec
+[SUCCESS] AC
+
+[INFO] sample-2
+[INFO] time: 0.026658 sec
+[SUCCESS] AC
+
+[INFO] slowest: 0.026658 sec  (for sample-2)
+[INFO] max memory: 10.224000 MB  (for sample-1)
+[SUCCESS] test success: 2 cases
