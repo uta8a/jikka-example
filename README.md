@@ -15,10 +15,16 @@ v5.1.0.0-Linuxで確認
   - 出力形式が文字列
 - :x: `atcoder/abc209/b/main.py`
   - 出力形式が文字列
-- :sob: `atcoder/abc208/b/main.py`
+- :sob: [`atcoder/abc208/b/main.py`](atcoder/abc208/b/main.py)
   - 出力形式が数値
   - PythonコードはAC https://atcoder.jp/contests/abc208/submissions/24786840
   - 生成されたC++はコンパイルが通る
   - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc208/b/result_as_generated_cpp)
   - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc208/submissions/24786892
+- :white_check_mark: [`atcoder/abc207/b/main.py`](atcoder/abc207/b/main.py)
+  - 出力形式が数値
+  - PythonコードはAC https://atcoder.jp/contests/abc207/submissions/24787342
+  - 生成されたC++はコンパイルが通る
+  - 生成されたC++はサンプルが合う [ローカルでの `oj t -N` の結果](atcoder/abc207/b/result_as_generated_cpp)
+  - 生成されたC++はAC https://atcoder.jp/contests/abc207/submissions/24787336
 - :x: ``
