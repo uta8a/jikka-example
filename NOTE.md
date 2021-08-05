@@ -47,3 +47,24 @@ Syntax Error (line 6 column 42) (user's mistake?): Jikka.Python.Parse.Happy.run 
 ```
 
 これpython本家でできることが驚きだけど...
+
+# listの直後にassertが必要
+```py
+def main() -> None:
+    n = int(input())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    assert len(a) == n
+    assert len(b) == n
+    ans = solve(n, a, b)
+    print(ans)
+```
+こういう風に間になんか入ると
+```txt
+Semantic Error (line 13 column 9) (user's mistake?): Jikka.RestrictedPython.Convert.ParseMain: after `xs = list(map(int, input().split()))', we need to write `assert len(xs) == n`
+12 |    n = int(input())
+13 |    a = list(map(int, input().split()))
+            ^^^^
+14 |    b = list(map(int, input().split()))
+```
+
