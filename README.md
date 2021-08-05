@@ -31,7 +31,7 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 出力形式が数値
   - PythonコードはAC https://atcoder.jp/contests/abc207/submissions/24787342
   - 生成されたC++はコンパイルが通る
-  - 生成されたC++はサンプルが合う [ローカルでの `oj t -N` の結果](atcoder/abc207/b/result_as_generated_cpp)
+  - 生成されたC++はサンプルが合う
   - 生成されたC++はAC https://atcoder.jp/contests/abc207/submissions/24787336
   - :heavy_plus_sign: `/^` を使用しても通った https://atcoder.jp/contests/abc207/submissions/24787491
 - :sob: [`atcoder/abc206/b/main.py`](atcoder/abc206/b/main.py)
@@ -46,7 +46,7 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 出力形式が数値
   - PythonコードはAC https://atcoder.jp/contests/abc204/submissions/24788109
   - 生成されたC++はコンパイルが通る
-  - 生成されたC++はサンプルが合う [ローカルでの `oj t -N` の結果](atcoder/abc204/b/result_as_generated_cpp)
+  - 生成されたC++はサンプルが合う
   - 生成されたC++はAC https://atcoder.jp/contests/abc204/submissions/24788117
 - :sob: [`atcoder/abc203/b/main.py`](atcoder/abc203/b/main.py)
   - 出力形式が数値
@@ -64,3 +64,9 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc200/b/result_as_generated_cpp)
   - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc200/submissions/24788787
+- :white_check_mark: [`atcoder/abc199/b/main.py`](atcoder/abc199/b/main.py)
+  - 出力形式が数値
+  - PythonコードはAC https://atcoder.jp/contests/abc199/submissions/24792987
+  - 生成されたC++はコンパイルが通る
+  - 生成されたC++はサンプルが合う
+  - 生成されたC++はAC https://atcoder.jp/contests/abc199/submissions/24793007
