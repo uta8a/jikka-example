@@ -4,19 +4,19 @@ v5.1.0.0-Linuxで確認
 pythonコードでのACは確認いらないが、問題の切り分けのため行っている
 
 # note
-- :x: 問題が仕様上対象ではない(文字列出力など)
+- :heavy_minus_sign: 問題が仕様上対象ではない(文字列出力など)
 - :sob: 問題としては適格だが、うまくいかなかった(コントリビューションチャンス)
-- :white_check_mark: 問題を生成されたC++コードでACできた
+- :white_check_mark: 問題を生成されたC++コードでACできた1
 
 # list
-- :x: `atcoder/abc212/b/main.py`
+- :heavy_minus_sign: `atcoder/abc212/b/main.py`
   - 出力形式が文字列
   - 解こうとした
-- :x: `atcoder/abc211/b/main.py`
+- :heavy_minus_sign: `atcoder/abc211/b/main.py`
   - 出力形式が文字列
-- :x: `atcoder/abc210/b/main.py`
+- :heavy_minus_sign: `atcoder/abc210/b/main.py`
   - 出力形式が文字列
-- :x: `atcoder/abc209/b/main.py`
+- :heavy_minus_sign: `atcoder/abc209/b/main.py`
   - 出力形式が文字列
 - :sob: [`atcoder/abc208/b/main.py`](atcoder/abc208/b/main.py)
   - 出力形式が数値
@@ -37,7 +37,7 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc206/b/result_as_generated_cpp)
   - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc206/submissions/24787804
-- :x: `atcoder/abc205/b/main.py`
+- :heavy_minus_sign: `atcoder/abc205/b/main.py`
   - 出力形式が文字列
 - :white_check_mark: [`atcoder/abc204/b/main.py`](atcoder/abc204/b/main.py)
   - 出力形式が数値
@@ -51,9 +51,9 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc203/b/result_as_generated_cpp)
   - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc203/submissions/24788528
-- :x: `atcoder/abc202/b/main.py`
+- :heavy_minus_sign: `atcoder/abc202/b/main.py`
   - 文字列操作をするのでめんどくさそう
-- :x: `atcoder/abc201/b/main.py`
+- :heavy_minus_sign: `atcoder/abc201/b/main.py`
   - 出力形式が文字列
 - :sob: [`atcoder/abc200/b/main.py`](atcoder/abc200/b/main.py)
   - 出力形式が数値
