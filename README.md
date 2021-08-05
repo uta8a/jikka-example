@@ -1,6 +1,8 @@
 # jikka-example
 v5.1.0.0-Linuxで確認
 
+pythonコードでのACは確認いらないが、問題の切り分けのため行っている
+
 # note
 - :x: 問題が仕様上対象ではない(文字列出力など)
 - :sob: 問題としては適格だが、うまくいかなかった(コントリビューションチャンス)
@@ -34,4 +36,12 @@ v5.1.0.0-Linuxで確認
   - 生成されたC++はコンパイルが通る
   - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc206/b/result_as_generated_cpp)
   - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc206/submissions/24787804
+- :x: `atcoder/abc205/b/main.py`
+  - 出力形式が文字列
+- :white_check_mark: [`atcoder/abc204/b/main.py`](atcoder/abc204/b/main.py)
+  - 出力形式が数値
+  - PythonコードはAC https://atcoder.jp/contests/abc204/submissions/24788109
+  - 生成されたC++はコンパイルが通る
+  - 生成されたC++はサンプルが合う [ローカルでの `oj t -N` の結果](atcoder/abc204/b/result_as_generated_cpp)
+  - 生成されたC++はAC https://atcoder.jp/contests/abc204/submissions/24788117
 - 
