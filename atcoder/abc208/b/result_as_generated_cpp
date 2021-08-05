@@ -1,0 +1,45 @@
+[INFO] online-judge-tools 11.4.0 (+ online-judge-api-client 10.9.0)
+[INFO] 3 cases found
+
+[INFO] sample-1
+[INFO] time: 0.002989 sec
+[FAILURE] WA
+input:
+9
+
+output:
+0_(trailing whitespace)
+_(trailing whitespace)
+expected:
+3
+
+
+[INFO] sample-2
+[INFO] time: 0.003006 sec
+[FAILURE] WA
+input:
+119
+
+output:
+0_(trailing whitespace)
+_(trailing whitespace)
+expected:
+10
+
+
+[INFO] sample-3
+[INFO] time: 0.004144 sec
+[FAILURE] WA
+input:
+10000000
+
+output:
+0_(trailing whitespace)
+_(trailing whitespace)
+expected:
+24
+
+
+[INFO] slowest: 0.004144 sec  (for sample-3)
+[INFO] max memory: 3.456000 MB  (for sample-1)
+[FAILURE] test failed: 0 AC / 3 cases
