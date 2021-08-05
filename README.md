@@ -27,4 +27,5 @@ v5.1.0.0-Linuxで確認
   - 生成されたC++はコンパイルが通る
   - 生成されたC++はサンプルが合う [ローカルでの `oj t -N` の結果](atcoder/abc207/b/result_as_generated_cpp)
   - 生成されたC++はAC https://atcoder.jp/contests/abc207/submissions/24787336
+  - :heavy_plus_sign: `/^` を使用しても通った https://atcoder.jp/contests/abc207/submissions/24787491
 - :x: ``
