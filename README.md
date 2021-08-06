@@ -97,6 +97,6 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - PythonコードはAC https://atcoder.jp/contests/abc191/submissions/24806265
   - 生成されたC++はコンパイルが通る
   - 生成されたC++はサンプルが合う
-  - :sob: 生成されたC++はTLE https://atcoder.jp/contests/abc191/submissions/24806267 (パッと見おかしそうなところないので出力とかで変な空ループしているのかな？要調査)
+  - :sob: 生成されたC++はTLE https://atcoder.jp/contests/abc191/submissions/24806267 (パッと見おかしそうなところないので出力とかで変な空ループしているのかな？要調査→これはMoveSemantics.hsがif文に対応してないのが原因らしい。解決は難しそう)
 - :heavy_minus_sign: `atcoder/abc190/b/main.py`
   - 出力形式が文字列
