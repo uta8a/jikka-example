@@ -1,0 +1,35 @@
+Type Error (line 8 column 21) (user's mistake?): Jikka.RestrictedPython.Convert.TypeInfer: failed to solve type equations: failed to unify type int and type List[$39]: type int is not type List[$39]
+7 |    for i in range(n):
+8 |        xsmin = min(xs[:i] + xs[i+1:])
+                       ^^
+9 |        ysmin = min(ys[:i] + ys[i+1:])
+
+Type Error (line 8 column 30) (user's mistake?): Jikka.RestrictedPython.Convert.TypeInfer: failed to solve type equations: failed to unify type int and type List[$42]: type int is not type List[$42]
+7 |    for i in range(n):
+8 |        xsmin = min(xs[:i] + xs[i+1:])
+                                ^^
+9 |        ysmin = min(ys[:i] + ys[i+1:])
+
+Type Error (line 8 column 17) (user's mistake?): Jikka.RestrictedPython.Convert.TypeInfer: failed to solve type equations: failed to unify type Callable[[int], $45] and type Callable[[List[$10]], $10]: type int is not type List[$10]
+7 |    for i in range(n):
+8 |        xsmin = min(xs[:i] + xs[i+1:])
+                   ^^^
+9 |        ysmin = min(ys[:i] + ys[i+1:])
+
+Type Error (line 9 column 21) (user's mistake?): Jikka.RestrictedPython.Convert.TypeInfer: failed to solve type equations: failed to unify type int and type List[$47]: type int is not type List[$47]
+8  |        xsmin = min(xs[:i] + xs[i+1:])
+9  |        ysmin = min(ys[:i] + ys[i+1:])
+                        ^^
+10 |        ans = min([ans, xs[i] + ys[i], max(xs[i], ysmin), max(ys[i], xsmin)])
+
+Type Error (line 9 column 30) (user's mistake?): Jikka.RestrictedPython.Convert.TypeInfer: failed to solve type equations: failed to unify type int and type List[$50]: type int is not type List[$50]
+8  |        xsmin = min(xs[:i] + xs[i+1:])
+9  |        ysmin = min(ys[:i] + ys[i+1:])
+                                 ^^
+10 |        ans = min([ans, xs[i] + ys[i], max(xs[i], ysmin), max(ys[i], xsmin)])
+
+Type Error (line 9 column 17) (user's mistake?): Jikka.RestrictedPython.Convert.TypeInfer: failed to solve type equations: failed to unify type Callable[[int], $53] and type Callable[[List[$11]], $11]: type int is not type List[$11]
+8  |        xsmin = min(xs[:i] + xs[i+1:])
+9  |        ysmin = min(ys[:i] + ys[i+1:])
+                    ^^^
+10 |        ans = min([ans, xs[i] + ys[i], max(xs[i], ysmin), max(ys[i], xsmin)])

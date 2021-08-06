@@ -70,3 +70,16 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - 生成されたC++はサンプルが合う
   - 生成されたC++はAC https://atcoder.jp/contests/abc199/submissions/24793007
+- :heavy_minus_sign: `atcoder/abc198/b/main.py`
+  - 出力形式が文字列
+- :heavy_minus_sign: `atcoder/abc197/b/main.py`
+  - 入力形式が2次元グリッド文字で、文字列は扱いづらいため
+- :heavy_minus_sign: `atcoder/abc196/b/main.py`
+  - 入力制約が 10^100 で、実質文字列
+- :heavy_minus_sign: `atcoder/abc195/b/main.py`
+  - 出力形式が文字列の場合がある
+- :sob: [`atcoder/abc194/b/main.py`](atcoder/abc194/b/main.py)
+  - 出力形式が数値
+  - PythonコードはAC https://atcoder.jp/contests/abc194/submissions/24805803
+  - :sob: 生成されたC++はコンパイルが通らない。`xs[:i]` のような記法がサポートされていないから？(コード書いた側の問題？) [エラーメッセージ: `atcoder/abc194/b/error_message`](atcoder/abc194/b/error_message)
+- 
