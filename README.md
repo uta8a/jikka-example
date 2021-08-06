@@ -82,4 +82,10 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 出力形式が数値
   - PythonコードはAC https://atcoder.jp/contests/abc194/submissions/24805803
   - :sob: 生成されたC++はコンパイルが通らない。`xs[:i]` のような記法がサポートされていないから？(コード書いた側の問題？) [エラーメッセージ: `atcoder/abc194/b/error_message`](atcoder/abc194/b/error_message)
+- :white_check_mark: [`atcoder/abc193/b/main.py`](atcoder/abc193/b/main.py)
+  - 出力形式が数値
+  - PythonコードはAC https://atcoder.jp/contests/abc193/submissions/24806073
+  - 生成されたC++はコンパイルが通る
+  - 生成されたC++はサンプルが合う
+  - 生成されたC++はAC https://atcoder.jp/contests/abc193/submissions/24806075
 - 
