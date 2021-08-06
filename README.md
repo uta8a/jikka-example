@@ -88,4 +88,14 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - 生成されたC++はサンプルが合う
   - 生成されたC++はAC https://atcoder.jp/contests/abc193/submissions/24806075
+- :heavy_minus_sign: `atcoder/abc192/b/main.py`
+  - 出力形式が文字列
+- :heavy_minus_sign: `atcoder/abc191/b/main.py`
+  - 出力形式の一部に空文字列がある
+- :sob: [`atcoder/abc191/b/main.py`](atcoder/abc191/b/main.py)
+  - 出力形式が数値のlist
+  - PythonコードはAC https://atcoder.jp/contests/abc191/submissions/24806265
+  - 生成されたC++はコンパイルが通る
+  - 生成されたC++はサンプルが合う
+  - :sob: 生成されたC++はTLE https://atcoder.jp/contests/abc191/submissions/24806267
 - 
