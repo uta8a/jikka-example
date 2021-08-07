@@ -9,7 +9,7 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
 # note
 - :heavy_minus_sign: 問題が仕様上対象ではない(文字列出力など)
 - :sob: 問題としては適格だが、うまくいかなかった(コントリビューションチャンス)
-- :white_check_mark: 問題を生成されたC++コードでACできた1
+- :white_check_mark: 問題を生成されたC++コードでACできた
 
 # list
 - :heavy_minus_sign: `atcoder/abc212/b/main.py`
