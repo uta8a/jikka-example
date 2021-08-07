@@ -50,12 +50,13 @@ pythonコードでのACは確認いらないが、問題の切り分けのため
   - 生成されたC++はコンパイルが通る
   - 生成されたC++はサンプルが合う
   - 生成されたC++はAC https://atcoder.jp/contests/abc204/submissions/24788117
-- :sob: [`atcoder/abc203/b/main.py`](atcoder/abc203/b/main.py)
+- :white_check_mark: [`atcoder/abc203/b/main.py`](atcoder/abc203/b/main.py)
   - 出力形式が数値
   - PythonコードはAC https://atcoder.jp/contests/abc203/submissions/24788520
   - 生成されたC++はコンパイルが通る
-  - :sob: 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc203/b/result_as_generated_cpp)
-  - :sob: 生成されたC++はWA https://atcoder.jp/contests/abc203/submissions/24788528
+  - 生成されたC++はサンプルが合わない [ローカルでの `oj t` の結果](./atcoder/abc203/b/result_as_generated_cpp)
+  - 生成されたC++はWA https://atcoder.jp/contests/abc203/submissions/24788528
+  - 生成されたC++はAC https://atcoder.jp/contests/abc203/submissions/24820582 (kmyk/Jikka d2be3858a1ec3b65a8cdb6228e81c85dd976a5bc)
 - :heavy_minus_sign: `atcoder/abc202/b/main.py`
   - 文字列操作をするのでめんどくさそう
 - :heavy_minus_sign: `atcoder/abc201/b/main.py`
